@@ -1,41 +1,61 @@
 @use '../variables' as *;
 
 .main-nav {
-  
+  display: flex;
+  justify-content: space-between;
+  padding: 13px 10px;
+  align-items: center;
 }
 
 .left-nav > ul,
 .right-nav > ul {
-  
+  display: flex;
+  align-items: center;
 }
 
 .left-nav {
 
   > ul {
     > li {
-      
+    padding: 7px 10px;
+    margin: 0px 13px;
     }
+  }
+  #searchbar{
+    background-color: rgb(243, 238, 238);
+    border-radius: 4px;
+  }
+  
+  i{
+    padding-right: 7px;
   }
 
   span {
-    
+    font-family: Arial, Helvetica, sans-serif;
+     font-size: 11px;
+     text-transform: uppercase;
+     font-weight: bold;
   }
 }
 
 .right-nav  {
+
   > ul {
     > li {
-      
+      margin: 2px;
     }
 
     > li:last-of-type {
       
     }
   }
-  
-  i {
-    
+  #gear-item{
+    background-color: rgb(243, 238, 238);
+    padding: 7px;
+    border-radius: 4px;
   }
+
+  
 }
 
 .left-nav > ul > li:hover,
