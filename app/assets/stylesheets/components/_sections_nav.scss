@@ -1,0 +1,31 @@
+.section-nav{ 
+  ul{
+    display: flex;
+    justify-content: center;
+    border-bottom: 1px solid lightgray;
+    li{
+      padding: 10px;
+      #section-nav-all:hover {
+        border-bottom: 1px solid black;
+        background-color: transparent;
+      }
+    }
+    a:hover{
+      background-color: lightgray;
+    }
+
+    a{
+      font-size: 14px;
+    }
+
+    #section-nav-all{
+      text-transform: uppercase;
+      font-size: 11px;
+    }
+  }
+}
+
+#all-list-item{
+  padding-top: 12px;
+  padding-bottom: 8px;
+}
